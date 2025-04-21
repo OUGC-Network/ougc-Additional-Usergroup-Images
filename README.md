@@ -1,4 +1,10 @@
-<h3 align="center">ougc Additional Usergroups Images</h3>
+<p align="center">
+    <a href="" rel="noopener">
+        <img width="700" height="400" src="https://github.com/user-attachments/assets/7bcfedb3-8134-4fb5-bc1c-77e97013764d" alt="Project logo">
+    </a>
+</p>
+
+<h3 align="center">ougc Additional Usergroup Images</h3>
 
 <div align="center">
 
