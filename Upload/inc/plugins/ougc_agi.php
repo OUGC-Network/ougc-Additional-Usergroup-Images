@@ -252,7 +252,7 @@ function ougc_agi_run(array &$post): array
 
         $uidscache[$post['uid']] = [];
 
-        foreach (array_map('intval', explode(',', (string)$post['additionalgroups'])) as $additional_group_id) {
+        foreach (array_map('intval', explode(',', $post['additionalgroups'] ?? '')) as $additional_group_id) {
             if ($additional_group_id !== (int)$post['usergroup']) {
                 $uidscache[$post['uid']][] = $additional_group_id;
             }
